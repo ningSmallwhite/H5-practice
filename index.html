@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="https://www.baidu.com" target="_blank">
+  <title>html、h5常用标签</title>
+  <style>
+    .content{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around ;
+    }
+    .label{
+      width: 30%;
+      border: 1px dashed #ccc;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="label">
+      <h3>基础标签</h3>
+      <p>文档类型标签(单): < !DOCTYPE></p>
+      <p>html文档标签(双): < html></p>
+      <p>文档标题(双): < title></p>
+      <p>文档信息标签(双): < head></p>
+      <p>文档主体标签(双):< body></p>
+      <p>文档样式标签(双):< style/></p>
+      <p>文档元素信息标签(单):< meta></p>
+      <p>所有链接默认目标标签(单):< base> <a href="#">此处a标签href为#</a></p>
+      <p>文档外部资源标签(单):< link></p>
+      <p>HTML注释: < -- ... --></p>
+    </div>
+    <div class="label">
+      <h3>格式标签</h3>
+      <p>标题标签(双):< h1>< h2>< h3>< h4>< h5>< h6></p>
+      <p>段落标签(双):< p></p>
+      <p>换行标签(单):< br></p>
+      <p>线条标签(单):< hr></p>
+      <p>粗体标签(双):< b> <b>粗体</b></p>
+      <p>强调标签(双):< em><em>强调</em></p>
+      <p>斜体标签(双):< i> <i>斜体</i></p>
+      <p>删除线标签(双):< s> <s>删除线</s></p>
+      <p>加重标签(双):< strong> <strong>加重</strong></p>
+      <p>下标标签(双):< sub> <sub>下标</sub></p>
+      <p>上标标签(双):< sup> <sup>上标</sup></p>
+      <p>拼写错误标签(双):< u> <u>错误</u></p>
+    </div>
+    <div class="label">
+      <h3>分区/节标签</h3>
+      <p>分区标签(双):< div></p>
+      <p>行内标签(双):< span></p>
+      <h3>链接标签</h3>
+      <p>超链接标签(单):< a> <a href="#">根据base标签地址跳转</a></p>
+      <h3>图像标签</h3>
+      <p>图像标签(单): <img style="width: 100px;" src="https://ts1.cn.mm.bing.net/th?id=OIP-C.nfC2tVNM9TgwQ5QuqECd6wHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" alt="图片地址错误"></p>
+      <p>图像映射标签(双):< map></p>
+      <p>图像映射内部区域标签(单):< area></p>
+    </div>
+    <div class="label">
+      <h3>列表标签</h3>
+      <p>无序列表标签(双):< ul></p>
+      <p>有序列表标签(双):< ol></p>
+      <p>列表项目标签(双):< li></p>
+      <p>描述列表标签(双):< dl></p>
+      <p>描述名字标签(双):< dt></p>
+      <p>描述信息标签(双):< dd></p>
+    </div>
+    <div class="label">
+      <h3>表格标签</h3>
+      <p>表格标签(双):< table></p>
+      <p>表格标题标签(双):< caption></p>
+      <p>表格表头单元格标签(双):< th></p>
+      <p>表格行标签(双):< tr></p>
+      <p>表格单元格(双):< td></p>
+      <p>表格表头内容标签(双):< thead></p>
+      <p>表格主题内容标签(双):< tbody></p>
+      <p>每一列列属性标签(双):< col></p>
+      <p>表格列组合标签(双): < colgroup></p>
+    </div>
+    <div class="label">
+      <h3>表单标签</h3>
+      <p>HTML表单标签(双):< form></p>
+      <p>输入框标签(单):< input></p>
+      <p>多行输入框标签(双):< textarea></p>
+      <p>按钮标签(双):< button> <button>按钮标签</button></p>
+      <p>下拉列表标签(双):< select></p>
+      <p>下拉组合标签:< optgroup></p>
+      <p>下拉条目标签(双):< option></p>
+      <p>input的标签(双):< label></p>
+      <p>表单分组标签(双):< fieldset></p>
+      <p>表单组标题(双):< legend></p>
+    </div>
+    <div class="label">
+      <h3>框架标签</h3>
+      <p>框架(双):< frame></p>
+      <p>框架集(双):< frameset></p>
+      <p>框架提示(双):< noframes></p>
+      <p>内嵌框架(双):< iframe></p>
+      <p>脚本标签(双):< script/></p>
+    </div>
+    <div class="label">
+      <h3>H5语义化标签</h3>
+      <p>头部标签(双):< header></p>
+      <p>导航标签(双):< nav></p>
+      <p>补充,(旁边)标签(双):< aside></p>
+      <p>尾部标签(双):< footer></p>
+      <p>文档标签(双):< article></p>
+      <p>部分、章节标签(双):< section></p>
+      <p>< ruby>< rt>< rp>:</ruby>ruby指定一个具体的表达式,然后使用rt提供说明。rt部分将显示在表达式上方 : <ruby>
+        北<rt>bei</rt>
+        京<rt>jing</rt>
+        </ruby>
+      </p>
+      <p>time标签(双):< time></p>
+      <p>高亮标记标签(双):< mark><mark>高亮</mark></p>
+      <p>避免单词太长错误换行标签(单):< wbr></p>
+    </div>
+    <div class="label">
+      <h3>H5新增标签</h3>
+      <p>视频标签(双):< video></p>
+      <p>音频标签(双):< audio></p>
+      <p>位图区域:< canvas></p>
+      <p>任务的完成进度标签(双):< progress>:</progress><progress value="55" max="100">55%</progress></p>
+      <p>联系信息标签(双):< address>
+        <address>
+          <a href="mailto:2870745958@qq.com">2870745958@qq.com</a><br>
+          <a href="tel:+110">110</a>
+        </address>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
